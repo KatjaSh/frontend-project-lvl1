@@ -4,5 +4,5 @@
 
 <a href="https://codeclimate.com/github/KatjaSh/frontend-project-lvl1/maintainability"><img src="https://api.codeclimate.com/v1/badges/6cd0b33720ba6abb7541/maintainability" /></a>
 
-![.github/workflows/superlinter.yml](https://github.com/KatjaSh/frontend-project-lvl1/workflows/.github/workflows/superlinter.yml)
+![.github/workflows/superlinter.yml](https://github.com/KatjaSh/frontend-project-lvl1/.github/workflows/superlinter.yml)
 
