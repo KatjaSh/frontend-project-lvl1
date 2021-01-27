@@ -7,3 +7,5 @@
 ![Super-Linter](https://github.com/KatjaSh/frontend-project-lvl1/workflows/Super-Linter/badge.svg)
 
 [![asciicast](https://asciinema.org/a/uOeE8LlBwJvclsFj3jZWW2yaA.svg)](https://asciinema.org/a/uOeE8LlBwJvclsFj3jZWW2yaA)
+
+[![asciicast](https://asciinema.org/a/E7mdHYPwbjswDzDtNW9YtIqrF.svg)](https://asciinema.org/a/E7mdHYPwbjswDzDtNW9YtIqrF)
