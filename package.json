@@ -24,6 +24,7 @@
     "brain-gcd": "bin/brain-gcd.js"
   },
   "dependencies": {
+    "@hexlet/pairs": "^1.1.1",
     "readline-sync": "^1.4.10"
   },
   "devDependencies": {
