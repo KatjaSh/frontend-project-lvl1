@@ -1,11 +1,11 @@
-import readlineSync from 'readline-sync';
+import { cons } from '@hexlet/pairs';
 import { game, getRandomInt } from '../index.js';
 
 const rule = 'Find the greatest common divisor of given numbers.';
-const round = () => {
+const questionAnswer = () => {
   const a = getRandomInt(1, 101);
   const b = getRandomInt(1, 101);
-  const question = `${a} ${b}`;
+  const question = () => `${a} ${b}`;
   const correctAnswer = () => {
     let result;
     const num = a > b ? b : a;
@@ -17,13 +17,9 @@ const round = () => {
     }
     return result.toString();
   };
-  const answer = readlineSync.question(`Question: ${question}\nYour answer: `);
-  if (answer === correctAnswer()) {
-    return true;
-  }
-  console.log(`'${answer}' is wrong answer ;(. Correct answer was '${correctAnswer()}'.`);
-  return false;
+  return cons(question(), correctAnswer());
 };
+
 export default () => {
-  game(rule, round);
+  game(rule, questionAnswer);
 };
